@@ -1,4 +1,5 @@
 import React from "react";
+import CounterClass from "./components/Counter";
 import CounterFunction from "./components/CounterFunction";
 // import logo from './logo.svg';
 // import './App.css';
@@ -33,6 +34,7 @@ function App() {
       <h1>
         My First CRA Components
       </h1>
+      <CounterClass/>
       <CounterFunction/>
     </div>
   );
