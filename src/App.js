@@ -1,9 +1,12 @@
 import React from "react";
 import CounterClass from "./components/Counter";
 import CounterFunction from "./components/CounterFunction";
+import ConditionalRender from "./components/ConditionalRender";
+import StringLiteral from "./components/StringLiteral";
+import CounterUseState from "./components/CounterUseState";
+import FetchData from "./components/FetchData";
 // import logo from './logo.svg';
 // import './App.css';
-
 // function App() {
 //   return (
 //     <div className="App">
@@ -36,6 +39,10 @@ function App() {
       </h1>
       <CounterClass/>
       <CounterFunction/>
+      <ConditionalRender/>
+      <StringLiteral/>
+      <CounterUseState/>
+      <FetchData/>
     </div>
   );
 }

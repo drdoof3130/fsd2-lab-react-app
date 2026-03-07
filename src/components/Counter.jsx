@@ -1,4 +1,4 @@
-import Recact, {Component} from "react";
+import React, {Component} from "react";
 
 class CounterClass extends Component {
     constructor(props){
